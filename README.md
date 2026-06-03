@@ -1,5 +1,4 @@
 # Multi-Language Sentiment Analysis with LLM
-**BITS Pilani – M.Tech AIML | NLP Applications S2-25_AIMLCZG519 | Assignment 1 – PS-45**
 
 ## Problem Statement
 Build a multi-language sentiment analysis system using LLMs that can analyze text in **English, Hindi, Spanish, and French**. The system automatically detects language and applies appropriate sentiment analysis.
@@ -8,7 +7,6 @@ Build a multi-language sentiment analysis system using LLMs that can analyze tex
 
 ## Project Structure
 ```
-assignment1/
 ├── data/
 │   ├── create_dataset.py          # Dataset generator (500 samples/language)
 │   └── multilingual_sentiment_dataset.csv  (generated)
@@ -67,18 +65,6 @@ This generates:
 streamlit run app.py
 ```
 Open your browser at `http://localhost:8501`
-
----
-
-## Task Coverage
-
-| Task | Marks | Description |
-|------|-------|-------------|
-| 1 | 2/10 | Data loading, lowercase, remove punctuation/stopwords/special chars, NLTK tokenization |
-| 2 | 3/10 | `cardiffnlp/twitter-xlm-roberta-base-sentiment` via HuggingFace Transformers |
-| 3 | 3/10 | Accuracy, Precision, Recall, F1; confusion matrix; distribution bar chart; probability scores |
-| 4 | 1/10 | Streamlit app with text input, file upload, color-coded output, confidence score |
-| 5 | 1/10 | Naive Bayes + Logistic Regression comparison, 2 advantages, 2 disadvantages, 1 limitation |
 
 ---
 
